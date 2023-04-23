@@ -215,10 +215,6 @@ footer .content-wrapper {
   margin: 50px 0;
 }
 
-footer p {
-  margin: 0;
-}
-
 footer .contact {
   margin-bottom: 50px;
 }
@@ -233,6 +229,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #527158;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+footer .social-icons i {
+  font-size: 1.3125em;
 }
 
 footer .copyright {
@@ -325,6 +329,11 @@ input[type=button] {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 /* Reviews */
@@ -599,6 +608,10 @@ input[type=button] {
   .features .features-item-description {
     width: 62%;
   }
+  
+  .features i {
+    margin-bottom: 30px;
+  }
 
   /* Reviews */
   .reviews article {
@@ -613,6 +626,11 @@ input[type=button] {
   .reviews article figure,
   .reviews article div {
     width: 49%;
+  }
+
+  .reviews h3 {
+    width: 75%;
+    margin: 0;
   }
 
   /* Footer */
@@ -639,6 +657,11 @@ input[type=button] {
 
   footer p {
     line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-around;
   }
 
   footer .copyright {
@@ -754,11 +777,6 @@ input[type=button] {
 
   .features article {
     flex-basis: 33%;
-  }
-
-  .features i {
-    font-size: 3.75em;
-    margin-bottom: 40px;
   }
 
   /* Reviews */
